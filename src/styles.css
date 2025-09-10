@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; }
+.container { max-width: 1200px; margin: auto; padding: 1rem; }
+header { display: flex; justify-content: space-between; align-items: center; }
+main { display: flex; gap: 1rem; }
+.left { flex: 2; }
+.right { flex: 1; }
+.matchup { background: white; padding: 1rem; margin-bottom: 1rem; border-radius: 6px; }
+.matchup .teams { font-size: 1.2rem; font-weight: bold; }
+.stats-table table { width: 100%; border-collapse: collapse; }
+.stats-table th, .stats-table td { border: 1px solid #ddd; padding: 0.5rem; text-align: center; }
+.leaders-chart { background: white; padding: 1rem; margin-top: 1rem; border-radius: 6px; }
